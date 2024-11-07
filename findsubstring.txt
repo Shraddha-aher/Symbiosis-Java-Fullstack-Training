@@ -1,0 +1,22 @@
+package demo;
+
+public class FindSubStringIndex {
+	public static void main(String[] args) {
+        String value = "Hello, welcome to the world of Java!";
+        String searchValue = "welcome"; // Example search value
+
+        int index = findSubstringIndex(value, searchValue);
+        
+        if (index != -1) {
+            System.out.println("The substring '" + searchValue + "' found at index: " + index);
+        } else {
+            System.out.println("The substring '" + searchValue + "' not found.");
+        }
+    }
+
+	private static int findSubstringIndex(String value, String searchValue) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
